@@ -2,13 +2,15 @@
 
 | 항목 | 상세 내용 |
 |------|-----------|
-| **개발 언어** | Java 17+, JavaScript |
-| **프레임워크** | Spring Boot (Spring MVC, Spring Security 포함), MyBatis |
+| **개발 언어** | Java 17+, TypeScript, JavaScript |
+| **프레임워크** | Spring Boot (Spring MVC, Spring Security 포함), React, Next.js |
+| **ORM** | MyBatis |
 | **데이터베이스** | Oracle 11g 이상 |
+| **모델 환경** | TensorFlow |
 | **빌드 도구** | Gradle |
 | **WAS** | Spring Boot Embedded Tomcat |
 | **형상 관리** | Git, GitHub |
-| **협업 도구** | Jira, Notion |
+| **협업 도구** | Jira, Notion, Slack |
 | **API 테스트** | Postman |
 
 
@@ -33,7 +35,7 @@
 | **Oracle** | 게시글/댓글/좋아요/거래 데이터 관리용 RDBMS |
 | **Spring Security** | 사용자 인증/인가 및 세션 관리 구현 |
 | **JWT** | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
-| **Tenserflow** | 1:1 실시간 채팅 서비스 |
+| **TensorFlow** | 	사용자 표정 기반 감정 분석 모델 학습 및 표 |
 
 ## 🔌 외부 연동 API
 | API | 설명 |

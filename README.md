@@ -124,7 +124,7 @@
 <br>
   
 ## 📌 전체 ERD
-![InkTree ERD](https://github.com/pingpingeee/MoodSync/blob/main/lib/images/erd/erd.png?raw=true)
+![MoodSync](https://github.com/pingpingeee/MoodSync/blob/main/lib/images/erd/erd.png?raw=true)
 
 ### 🔝 [이 섹션 맨 위로 이동](#trade-section-top-erd)
 </details>

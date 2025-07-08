@@ -110,7 +110,12 @@
 ## 📌 전체 ERD
 ![MoodSync](https://github.com/pingpingeee/MoodSync/blob/main/back-end/lib/images/erd/erd.png?raw=true)
 
-### 🔝 [이 섹션 맨 위로 이동](#trade-section-top-erd)
+<div align="center">
+<a href="#trade-section-top-erd">
+<img src="https://img.shields.io/badge/🔼위로 이동-4A90E2?style=for-the-badge&logoColor=white" alt="맨 위로">
+</a>
+</div>
+
 </details>
 
 ## 🖥 주요 화면 및 기능 상세

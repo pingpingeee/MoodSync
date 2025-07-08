@@ -234,9 +234,6 @@
 <td>🗄️ Oracle + MyBatis 활용한 데이터 핸들링</td>
 </tr>
 <tr>
-<td>🏗️ 마이크로서비스 아키텍처 기반 모듈화된 시스템 설계</td>
-</tr>
-<tr>
 <td>🚀 REST API 설계 최적화 및 클린 아키텍처 적용</td>
 </tr>
 </tbody>

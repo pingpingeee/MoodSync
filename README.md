@@ -1,69 +1,246 @@
 ## 📦 개발 환경 구성
 
-| 항목 | 상세 내용 |
-|------|-----------|
-| **개발 언어** | Java 17+, TypeScript, JavaScript |
-| **프레임워크** | Spring Boot (Spring MVC, Spring Security 포함), React, Next.js |
-| **ORM** | MyBatis |
-| **데이터베이스** | Oracle 11g 이상 |
-| **모델 환경** | TensorFlow |
-| **빌드 도구** | Gradle |
-| **WAS** | Spring Boot Embedded Tomcat |
-| **형상 관리** | Git, GitHub |
-| **협업 도구** | Jira, Notion, Slack |
-| **API 테스트** | Postman |
-
+<table>
+<thead>
+<tr>
+<th width="25%">카테고리</th>
+<th width="75%">상세 내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/💻_개발_언어-4A90E2?style=flat&logoColor=white" alt="개발 언어"></td>
+<td>Java 17+, TypeScript, JavaScript, Python</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🚀_프레임워크-7ED321?style=flat&logoColor=white" alt="프레임워크"></td>
+<td>Spring Boot (Spring MVC, Spring Security 포함), React, Next.js, Node.js</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🗄️_ORM-F5A623?style=flat&logoColor=white" alt="ORM"></td>
+<td>MyBatis</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/💾_데이터베이스-D0021B?style=flat&logoColor=white" alt="데이터베이스"></td>
+<td>Oracle 11g 이상</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🤖_AI/ML_환경-9013FE?style=flat&logoColor=white" alt="AI/ML 환경"></td>
+<td>TensorFlow, Face-API.js</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🔨_빌드_도구-50E3C2?style=flat&logoColor=white" alt="빌드 도구"></td>
+<td>Gradle, npm/yarn</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🌐_WAS-BD10E0?style=flat&logoColor=white" alt="WAS"></td>
+<td>Spring Boot Embedded Tomcat, Node.js Server</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/📂_형상_관리-4A90E2?style=flat&logoColor=white" alt="형상 관리"></td>
+<td>Git, GitHub, Sourcetree</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🤝_협업_도구-7ED321?style=flat&logoColor=white" alt="협업 도구"></td>
+<td>Jira, Notion, Slack</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🧪_API_테스트-F5A623?style=flat&logoColor=white" alt="API 테스트"></td>
+<td>Postman</td>
+</tr>
+</tbody>
+</table>
 
 ## 🛠️ 기술 스택 (Tech Stack)
 
 ### 🌐 Frontend
 
-| 기술 | 설명 |
-|------|------|
-| **React** | 컴포넌트 기반 UI 라이브러리 |
-| **Next.js** | 서버 사이드 렌더링(SSR) 및 정적/동적 라우팅 지원 |
-| **TypeScript** | 	정적 타입을 지원하는 JavaScript 상위 언어로 안정적인 개발 가능 |
-| **Tailwind CSS** | 유틸리티 퍼스트 CSS 프레임워크로 반응형 UI 스타일링 지원 |
+<table>
+<thead>
+<tr>
+<th width="30%">기술</th>
+<th width="70%">설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React"></td>
+<td>컴포넌트 기반 UI 라이브러리</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js"></td>
+<td>서버 사이드 렌더링(SSR) 및 정적/동적 라우팅 지원</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"></td>
+<td>정적 타입을 지원하는 JavaScript 상위 언어로 안정적인 개발 가능</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></td>
+<td>유틸리티 퍼스트 CSS 프레임워크로 반응형 UI 스타일링 지원</td>
+</tr>
+</tbody>
+</table>
 
-### ⚙ Backend
+### ⚙️ Backend
 
-| 기술 | 설명 |
-|------|------|
-| **Spring Boot** | RESTful API 구현, 설정 자동화, 내장 톰캣 기반 서버 환경 |
-| **Spring MVC** | 계층화된 컨트롤러-서비스 구조로 웹 애플리케이션 구현 |
-| **MyBatis** | SQL 중심 ORM, DB 연동 및 동적 쿼리 처리 |
-| **Oracle** | 게시글/댓글/좋아요/거래 데이터 관리용 RDBMS |
-| **Spring Security** | 사용자 인증/인가 및 세션 관리 구현 |
-| **JWT** | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
-| **TensorFlow** | 	사용자 표정 기반 감정 분석 모델 학습 및 표 |
+<table>
+<thead>
+<tr>
+<th width="30%">기술</th>
+<th width="70%">설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white" alt="Spring Boot"></td>
+<td>RESTful API 구현, 설정 자동화, 내장 톰캣 기반 서버 환경</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring MVC"></td>
+<td>계층화된 컨트롤러-서비스 구조로 웹 애플리케이션 구현</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white" alt="MyBatis"></td>
+<td>SQL 중심 ORM, DB 연동 및 동적 쿼리 처리</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" alt="Oracle"></td>
+<td>사용자 데이터, 감정 분석 결과, 추천 콘텐츠 관리용 RDBMS</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white" alt="Spring Security"></td>
+<td>사용자 인증/인가 및 세션 관리 구현</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white" alt="JWT"></td>
+<td>토큰 기반 인증 구조, 무상태 인증 처리 방식 적용</td>
+</tr>
+</tbody>
+</table>
+
+### 🤖 AI/ML Server
+
+<table>
+<thead>
+<tr>
+<th width="30%">기술</th>
+<th width="70%">설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js"></td>
+<td>AI 모델 서버 런타임 환경</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow"></td>
+<td>사용자 표정 기반 감정 분석 모델 학습 및 추론</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Face_API-4285F4?style=flat&logo=google&logoColor=white" alt="Face API"></td>
+<td>실시간 얼굴 인식 및 표정 분석</td>
+</tr>
+</tbody>
+</table>
 
 ## 🔌 외부 연동 API
-| API | 설명 |
-|------|------|
-| **Naver SMTP** | 이메일 인증 시스템 구현  |
-| **Kakao 주소 API** | 회원가입 주소 자동입력  |
-| **Face API** | 표정 인식 후 감정 값 추출  |
-| **Youtube RSS  API** | 사용자 감정에 따라 음악 추천을 위한 유튜브 링크 제공  |
+
+<table>
+<thead>
+<tr>
+<th width="30%">API</th>
+<th width="70%">설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/Naver_SMTP-03C75A?style=flat&logo=naver&logoColor=white" alt="Naver SMTP"></td>
+<td>이메일 인증 시스템 구현</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Kakao_주소-FFCD00?style=flat&logo=kakao&logoColor=black" alt="Kakao 주소"></td>
+<td>회원가입 주소 자동입력</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Face_API-4285F4?style=flat&logo=microsoft&logoColor=white" alt="Face API"></td>
+<td>표정 인식 후 감정 값 추출</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/YouTube_RSS-FF0000?style=flat&logo=youtube&logoColor=white" alt="YouTube RSS"></td>
+<td>사용자 감정에 따라 음악 추천을 위한 유튜브 링크 제공</td>
+</tr>
+</tbody>
+</table>
 
 ## 💻 개발 도구
 
-| 도구 | 역할 |
-|------|------|
-| **IntelliJ IDEA / Eclipse** | Java 백엔드 및 Spring Boot 개발 |
-| **Visual Studio Code** | 프론트엔드, 모델 구현 |
-| **Postman** | API 테스트 및 디버깅 |
-| **GitHub / Sourcetree** | 프로젝트 버전 관리 및 협업 |
-| **Notion / Jira / Slack** | 프로젝트 문서화, 일정 관리 및 실시간 커뮤니케이션 |
+<table>
+<thead>
+<tr>
+<th width="30%">도구</th>
+<th width="70%">역할</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white" alt="IntelliJ"> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat&logo=eclipse&logoColor=white" alt="Eclipse"></td>
+<td>Java 백엔드 및 Spring Boot 개발</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code"></td>
+<td>프론트엔드, AI 모델 구현</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" alt="Postman"></td>
+<td>API 테스트 및 디버깅</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"> <img src="https://img.shields.io/badge/Sourcetree-0052CC?style=flat&logo=sourcetree&logoColor=white" alt="Sourcetree"></td>
+<td>프로젝트 버전 관리 및 협업</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white" alt="Notion"> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" alt="Jira"> <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white" alt="Slack"></td>
+<td>프로젝트 문서화, 일정 관리 및 실시간 커뮤니케이션</td>
+</tr>
+</tbody>
+</table>
 
-## ✅ 개발 특징
+## ✅ 핵심 기술 요약
 
-- **사용자 감정 분석 기반**의 개인화 추천 시스템
-- **표정 인식 및 AI 분석 모델(TensorFlow)** 을 활용한 실시간 감정 추론
-- 감정 상태에 따라 활동, 도서, 음악을 맞춤 추천
-- JWT + OAuth2 **기반 로그인/인증 시스템**
-- Spring Security **기반 권한 분기 및 접근 제어 구현**
-- Oracle + MyBatis **활용한 데이터 핸들링**
-- **REST API 설계 최적화 및 클린 아키텍처 적용**
+<table>
+<thead>
+<tr>
+<th width="100%">주요 특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🎭 사용자 감정 분석 기반의 개인화 추천 시스템</td>
+</tr>
+<tr>
+<td>🤖 표정 인식 및 AI 분석 모델(TensorFlow)을 활용한 실시간 감정 추론</td>
+</tr>
+<tr>
+<td>🎯 감정 상태에 따라 활동, 도서, 음악을 맞춤 추천</td>
+</tr>
+<tr>
+<td>🔐 JWT + OAuth2 기반 로그인/인증 시스템</td>
+</tr>
+<tr>
+<td>🛡️ Spring Security 기반 권한 분기 및 접근 제어 구현</td>
+</tr>
+<tr>
+<td>🗄️ Oracle + MyBatis 활용한 데이터 핸들링</td>
+</tr>
+<tr>
+<td>🏗️ 마이크로서비스 아키텍처 기반 모듈화된 시스템 설계</td>
+</tr>
+<tr>
+<td>🚀 REST API 설계 최적화 및 클린 아키텍처 적용</td>
+</tr>
+</tbody>
+</table>
 
 ## 📊 데이터베이스 
 <a name="trade-section-top-erd"></a>

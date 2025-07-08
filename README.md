@@ -73,58 +73,42 @@
 <ul>
   <li><b>사용자 관리</b>
     <ul>
-      <li>USERINFO: 사용자 기본 정보</li>
-      <li>USER_SESSIONS: 유저 세션 관리</li>
+      <li>USER_INFO: 사용자 기본 정보</li>
+      <li>USER_CONTACT: 사용자 문의사항 관리</li>
+      <li>CONTACT_ANSWER: 문의사항 답변 관리</li>
+      <li>USER_FEEDBACK: 사용자 피드백 및 평가</li>
     </ul>
   </li>
 <br>
-  <li><b>도서 관리</b>
+  <li><b>감정 기반 콘텐츠 관리</b>
     <ul>
-      <li>BOOKINFO: 도서 정보</li>
-      <li>BOOK_BORROW / BOOK_RECORD: 도서 대출 및 반납 기록</li>
-      <li>BOOK_REVIEW / BOOK_WISHLIST: 도서 리뷰 및 관심 도서 목록</li>
+      <li>EMOTIONS: 감정 카테고리 정보</li>
+      <li>EMOTIONBOOK: 감정별 추천 도서 정보</li>
+      <li>EMOTIONACTING: 감정별 추천 연기/영상 콘텐츠</li>
+      <li>EMOTIONMUSIC: 감정별 추천 음악 정보</li>
+      <li>YOUTUBEVIDEO: 유튜브 영상 연동 정보</li>
     </ul>
   </li>
 <br>
-  <li><b>커뮤니티 기능</b>
+  <li><b>사용자 활동 기록</b>
     <ul>
-      <li>BOARD: 게시판</li>
-      <li>BOARD_COMMENT: 댓글</li>
-      <li>BOARD_LIKES: 게시글 추천</li>
+      <li>USERRECORD: 게시판</li>
+      <li>USER_CHURN_TRAIN: 사용자 이탈 예측을 위한 학습 데이터</li>
     </ul>
   </li>
 <br>
-  <li><b>공지사항</b>
+  <li><b>컬렉션 관리</b>
     <ul>
-      <li>NOTICE: 운영자 공지사항 관리</li>
+      <li>COLLECTIONS: 사용자 맞춤 컬렉션 정보</li>
+      <li>COLLECTION_ITEMS: 컬렉션 내 개별 콘텐츠 아이템</li>
     </ul>
   </li>
 <br>
-  <li><b>중고 도서 거래</b>
-    <ul>
-      <li>TRADE_POST: 중고 도서 게시글</li>
-      <li>TRADE_FAVORITE: 관심 등록 기능</li>
-      <li>TRADE_RECORD: 거래 완료 기록</li>
-    </ul>
-  </li>
-<br>
-  <li><b>실시간 채팅</b>
-    <ul>
-      <li>TRADE_CHATROOM: 채팅방</li>
-      <li>TRADE_CHATMESSAGE: 채팅 메시지</li>
-    </ul>
-  </li>
-<br>
-  <li><b>사용자 알림</b>
-    <ul>
-      <li>NOTIFICATIONS: 이벤트 및 메시지 알림 시스템</li>
-    </ul>
-  </li>
 </ul>
 <br>
   
 ## 📌 전체 ERD
-![MoodSync](https://github.com/pingpingeee/MoodSync/blob/main/lib/images/erd/erd.png?raw=true)
+![MoodSync](https://github.com/pingpingeee/MoodSync/blob/main/back-end/lib/images/erd/erd.png?raw=true)
 
 ### 🔝 [이 섹션 맨 위로 이동](#trade-section-top-erd)
 </details>
